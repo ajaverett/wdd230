@@ -4,11 +4,10 @@
 @import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
 
 body {
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 header{
-    font-family: 'Wingdings', sans-serif;
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
     border-radius: 12px;
     display: flex;
