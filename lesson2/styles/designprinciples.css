@@ -18,6 +18,10 @@ padding: 20px;
     width: 100%;
 }
 
+.grid-container .grid-item p{
+    word-wrap: break-word
+}
+
 /* Tablet View */
 @media (min-width: 600px) {
     header {
