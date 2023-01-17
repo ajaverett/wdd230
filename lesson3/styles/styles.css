@@ -1,0 +1,53 @@
+nav {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: .1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0px;
+    align-items: center
+}
+
+nav ul li {
+    text-align: center;
+    min-width: 250px;
+    border-radius: 6px;
+    margin: 2px;
+    background-color: rgb(63, 16, 67);   
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: rgb(63, 16, 67,.6);   
+}
+
+nav a {
+    display: block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 9px #000000;
+}
+
+.active {
+    background-color: black;   
+  }
+
+main p{
+    margin: 5%;
+}
+
+@media screen and (min-width: 600px) {
+    nav ul {
+      flex-direction: row;
+    }
+
+    nav ul li{
+        min-width: 210px;
+    }
+    
+  }  
