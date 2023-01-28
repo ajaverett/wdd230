@@ -61,7 +61,7 @@ header img:hover{
     transform: scale(1.015); 
 }
 h1 {
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.925);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.9);
     font-size: 1.7rem;
     color: white;
 }
@@ -79,21 +79,21 @@ main {
 }
 
 h2{
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.01);
     font-size: 3rem;
     margin: 1rem 5%;
     color: var(--main-bg-color);
 }
 
 h3{
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.01);
     font-size: 2rem;
     margin: 1rem 5%;
     color: var(--second-bg-color)
 }
 
 h4{
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.05);
     font-size: 2rem;
     margin: 1rem 5%;
     color: black;
