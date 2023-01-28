@@ -1,57 +1,65 @@
- 
+
 .grid-item {
-  border: 1px solid rgba(100, 100, 100, 0.418);
-  min-height: 200px;
-  margin: 7px;
-  background-color: rgb(63, 16, 67,.6);
-  border-radius: 5px;
+    border: 1px solid rgba(100, 100, 100, 0.418);
+    min-height: 200px;
+    margin: 7px;
+    background-color: var(--main-bg-color);
 }
-  
+
 #A {grid-area: A;}
 #B {grid-area: B;}
 #C {grid-area: C;}
 #D {grid-area: D;}
 #E {grid-area: E; display: flex; flex-direction: row; padding: 10px;}
 #F {grid-area: F; display: none;}
-
+#E2 {display: block;}
+#E2 {display: none;}
 #E3 {display: none;}
 
 .grid-container {
+    text-align: center;
     display: grid;
     grid-template-areas: 
-      "A"
-      "B"
-      "C"
-      "D"
-      "E"
-      "E";
+    "A"
+    "B"
+    "C"
+    "D"
+    "E"
+    "E";
 }
 
+.grid-container p{color: white;}
+
 .spotlight{
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 25px 5px;
-  
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 25px 5px;
 }
 
 @media screen and (min-width: 600px) {
+
+    #E2{display: block;}
+
     #F {
         display: block;
     }
     
     #E {flex-direction: column;}
-      
+    
     .grid-container {
+        
+        padding: 10px 100px;
+
         grid-template-areas: 
-          "A  A  A"
-          "D  D  D"
-          "E  E  E"
-          "F  F  F"
-          "B  B  C";
+        "A  A  A"
+        "D  D  D"
+        "E  E  E"
+        "F  F  F"
+        "B  B  C";
     }
     
-  }  
-
+}  
+  
 @media screen and (min-width: 1040px) {
     
     #F {flex-direction: row;}
@@ -62,9 +70,9 @@
 
     .grid-container {
         grid-template-areas: 
-          "B  A  A  E"
-          "C  A  A  E"
-          "F  D  D  E";
+        "B  A  A  E"
+        "C  A  A  E"
+        "F  D  D  E";
     }
     
-  }  
+}  

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --main-bg-color: #163A79;
+    --second-bg-color: #FB8500;
+}
+
+#content {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    align-items: center;
+    background-color: var(--main-bg-color);
+}
+ 
+
+#coc-logo {
+    grid-column: 1 / 4;
+    margin: 10px;
+    max-width: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#header-title {
+    grid-column: 4 / 12;
+} 
+#hamburger{   
+    grid-column: 12 / 13;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.material-icons{
+    margin: 0;
+    size: large;
+    color: white;
+    background-color: var(--second-bg-color);
+    cursor: pointer;
+}
+
+.hide{display: none;}
+
+.fixed {
+    position: fixed;
+    top: 4rem;
+    bottom: 16rem;
+    left: 3rem;
+    width: 100%;
+    z-index: 10;  
+}
+
+
+header img {
+    max-width: 6rem;
+}
+header img:hover{
+    opacity: .8;
+    transform: scale(1.015); 
+}
+h1 {
+    text-align: left;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.925);
+    font-size: 1.7rem;
+    color: white;
+}
+#header-title{
+    width: 100%;
+}
+body img{
+    width: 100%;
+}
+
+
+main {
+    padding: 0px 5%;
+    text-align: center;
+}
+
+h2{
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    font-size: 3rem;
+    margin: 1rem 5%;
+    color: var(--main-bg-color);
+}
+
+h3{
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    font-size: 2rem;
+    margin: 1rem 5%;
+    color: var(--second-bg-color)
+}
+
+h4{
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    font-size: 2rem;
+    margin: 1rem 5%;
+    color: black;
+}
+
+p{
+    margin: 1rem 5%;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.animepfp{
+    float: left;
+    width: 33%;
+    max-width: 120px;
+    margin: 0 15px;
+}
+
+.test{
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+.test h3 {
+    padding: 0 10%;
+}
+
+.test p {
+    text-align: left;
+    padding: 0 10%;
+}
+
+.bshad{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
+}
+
+.purple{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.yellow_text{
+    color: yellow;
+}
+
+.slant{
+    font-style: italic;
+    color: rgb(52, 52, 52);
+}
+
+#footerlogo {
+    max-width: 220px; 
+    max-height: 220px;
+    margin: 0 auto;
+}
+
+#side-menu{
+    min-width: 12rem;
+    margin: 16px;
+    padding: 6px;
+    background-color: lightgray;
+}
+
+.grid-container-main{
+    display: flex;
+}
+
+.sidebar {
+    display: block;
+    list-style: none; 
+    flex-direction: column;
+    padding: 0px;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.menuItem {
+    margin: 5px 10px; 
+    border-radius: 10px; 
+    padding: 10px;
+    transition: background-color .2s;
+}
+     
+.menuItem:hover {
+    background-color: #fb860040;
+}
+  
+.link_class {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+  
+li.active {
+    background-color: white;
+    border-radius: 10px; 
+}
+
+
+.bluesection{text-align: center;}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#footerinfo {
+    flex: 1;
+    text-align: center;
+    min-width: 200px;
+}
+
+#footerlogo {
+    max-height: 200px;
+    flex: 0 0 auto; 
+    align-self: flex-end;
+}
+
+
+  
+
+@media only screen and (min-width: 640px) {
+
+    .material-icons{
+        display: none;
+    }
+
+
+    #content{
+        width: 100%
+    }
+    #side-menu{
+        display:block
+    }
+
+    #coc-logo {
+        padding-right: 0;
+    } 
+
+    header h1{
+        font-size:2.5rem;
+    }
+
+    main {
+        padding: 0px 10%;
+    }
+
+    body img{
+        max-height: 300px;
+        object-fit: cover;
+    }
+    
+  }
+
+@media only screen and (min-width: 1000px) {
+
+    header h1{
+        font: size 2rem;
+    }
+
+
+}

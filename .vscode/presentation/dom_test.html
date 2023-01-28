@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myHeading">Welcome to my website</h1>
+    <p>Click the buttons below to see some DOM manipulation</p>
+
+
+    <button id="changeText">Change Text</button>
+    <button id="addElement">Add Element</button>
+    <button id="removeElement">Remove Element</button>
+    <button id="changeColor">Change Color</button>
+
+
+    <div id="newDiv"></div>    
+
+    <script>
+        // Get button ids
+        let changeTextButton = document.getElementById("changeText");
+        let addElementButton = document.getElementById("addElement");
+        let removeElementButton = document.getElementById("removeElement");
+        let changeColorButton = document.getElementById("changeColor");
+
+
+        // Get the IDs of page things
+        let myHeading = document.getElementById("myHeading");
+        let newDiv = document.getElementById("newDiv");
+
+
+        // changeText
+        changeTextButton.addEventListener("click", function() {
+            myHeading.innerHTML = "Hello DOM!";
+        });
+        
+        // addElement
+        addElementButton.addEventListener("click", function() {
+            let newP = document.createElement("p");
+            let newContent = document.createTextNode("I'm a new element!");
+            newP.appendChild(newContent);
+            newDiv.appendChild(newP);
+        });
+
+        // removeElement
+        removeElementButton.addEventListener("click", function() {
+            newDiv.removeChild(newDiv.lastChild);
+        });
+
+        //changeColor
+        changeColorButton.addEventListener("click", function() {
+            myHeading.style.color = "red";
+        });
+
+
+    </script>
+</body>
+</html>
