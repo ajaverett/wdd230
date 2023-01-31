@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fictional Tokyo-3 Chamber of Commerce Website">
     <title>Tokyo-3 Chamber of Commerce</title>
+    <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/chamberGrid.css">
@@ -37,6 +38,9 @@
                           size="large"></ion-icon>           
             </button>         
         </header>
+        <div id="today-datetime">
+            <marquee id="today-text">time machine broke</marquee>
+        </div>
 
 
         <div class="cheese">
@@ -44,7 +48,7 @@
             <img src="images/tokyo3city.png" alt="View of Tokyo-3">
 
             <div class="grid-container-main">
-                <div id="side-menu" class="hide">
+                <nav id="side-menu" class="hide">
                     <div class="innerbox">
                         <h4>Menu</h4>
 
@@ -60,7 +64,7 @@
                             </li>
                         </ul>    
                     </div>
-                </div>
+                </nav>
                 <div id="welcome">
                     <h2>Welcome</h2>
                     <h3>Become a Member of Tokyo-3 Chamber of Commerce Today</h3>
@@ -103,11 +107,27 @@
         <!-- https://dev.to/coderamrin/responsive-navbar-using-html-css-and-javascript-1jo4 -->
 
         <footer class="purple">
-                <div id="footerinfo">
-                    <p>&copy;<span id="current_year"></span> .:|:. Alan J Averett .:|:. Texas</p>
-                    <p class="yellow_text">Last Updated: <span id="last_updated"></span></p>
+            
+            <div id="footerinfo">
+ 
+                <div class="socialmedia">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="https://goo.gl/maps/VGEWR5YpoMiWfRNS7" target="_blank">
+                        <ion-icon name="navigate-circle-outline"></ion-icon> <span>Google Maps</span>
+                    </a>
+                    
                 </div>
-                <img src="images/ngecoc_logo.png" alt="Tokyo-3 Chamber of Commerce" id="footerlogo">
+
+                <p>&copy;<span id="current_year"></span> .:|:. Alan J Averett .:|:. Texas</p>
+                <p class="yellow_text">Last Updated: <span id="last_updated"></span></p>
+
+            </div>
+            
+            <img src="images/ngecoc_logo.png" alt="Tokyo-3 Chamber of Commerce" id="footerlogo">
+            
+
         </footer>
 
         
