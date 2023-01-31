@@ -1,5 +1,5 @@
 
-const chapterInput = document.querySelector('favchap');
+const chapterInput = document.querySelector('#favchap');
 const addButton = document.querySelector('main button');
 const chapterList = document.querySelector('#list');
 
