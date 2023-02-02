@@ -32,8 +32,6 @@ var d = new Date();
 var year = d.getFullYear();
 document.getElementById("current_year").innerHTML = year;
 
-var today = new Date();
-var day = today.toLocaleString('default', { weekday: 'long' });
-var date = today.toLocaleString('default', { day: 'numeric', month: 'long', year: 'numeric' });
-document.getElementById("today-text").innerHTML = day + ',\t' + date;
+
+
 

@@ -6,12 +6,111 @@
     background-color: var(--main-bg-color);
 }
 
-#A {grid-area: A;}
+#A {
+    grid-area: A;    
+    background: url('/chamber/images/nge_hero.png') no-repeat;
+    position: relative;
+}
+
+#hero-button {
+    align-items: center;
+    background-color: #fa6400;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    margin: 10px;
+    min-height: 3rem;
+    padding: 0 30px;
+    text-decoration: none;
+    transition: all .07s;
+    width: auto;
+    position: absolute;
+    right: 2rem;
+    bottom: 3rem;
+  }
+  
+#hero-button:hover {
+    background-color: #d77635db;
+  }
+  
+#hero-button:active {
+    background-color: #c85000;
+  }
+
 #B {grid-area: B;}
+
 #C {grid-area: C;}
+
+
+#C-weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#C img{
+    max-height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
 #D {grid-area: D;}
-#E {grid-area: E; display: flex; flex-direction: row; padding: 10px;}
+#E {
+    grid-area: E; 
+    display: flex; 
+    flex-direction: row; 
+    padding: 10px;}
+
+#E1 {
+    background: url('/chamber/images/therobot.png') no-repeat;
+    background-size: 100%;
+}
+
+#E2 {
+    background: url('/chamber/images/mcgendo.png') no-repeat;
+    background-size: 100%;
+}
+
+#E3 {
+    background: url('/chamber/images/depression.png') no-repeat;
+    background-size: 100%;
+}
+
+
+.foodicon{
+    font-size: 64px;
+}
+
 #F {grid-area: F; display: none;}
+
+.button-5 {
+    align-items: center;
+    background-color: #fa6400;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    margin: 10px;
+    min-height: 3rem;
+    padding: 0 30px;
+    text-decoration: none;
+    transition: all .07s;
+    width: auto;
+  }
+  
+.button-5:hover {
+    background-color: #d77635db;
+  }
+  
+.button-5:active {
+    background-color: #c85000;
+  }
+
 #E2 {display: block;}
 #E2 {display: none;}
 #E3 {display: none;}
@@ -36,6 +135,21 @@
     margin: 25px 5px;
     padding: 10px 60px;
 }
+
+h5{
+    color: var(--second-bg-color);
+    font-size: larger;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.grid-item a{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+
 
 @media screen and (min-width: 600px) {
 
@@ -74,6 +188,16 @@
         "B  A  A  E"
         "C  A  A  E"
         "F  D  D  E";
+    }
+
+    
+    #B, #C, #F{
+        max-width: 250px;
+    }
+
+    #E1, #E2, #E3{
+        max-height: 200px;
+        max-width: 180px;
     }
     
 }  
