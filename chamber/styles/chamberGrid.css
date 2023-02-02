@@ -8,7 +8,7 @@
 
 #A {
     grid-area: A;    
-    background: url('/chamber/images/nge_hero.png') no-repeat;
+    background: url('../images/nge_hero.png') no-repeat;
     position: relative;
 }
 
@@ -46,7 +46,6 @@
 
 
 #C-weather{
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -61,21 +60,22 @@
 #E {
     grid-area: E; 
     display: flex; 
-    flex-direction: row; 
-    padding: 10px;}
+    flex-direction: column; 
+    padding: 10px;
+}
 
 #E1 {
-    background: url('/chamber/images/therobot.png') no-repeat;
+    background: url('../images/therobot.png') no-repeat;
     background-size: 100%;
 }
 
 #E2 {
-    background: url('/chamber/images/mcgendo.png') no-repeat;
+    background: url('../images/mcgendo.png') no-repeat;
     background-size: 100%;
 }
 
 #E3 {
-    background: url('/chamber/images/depression.png') no-repeat;
+    background: url('../images/depression.png') no-repeat;
     background-size: 100%;
 }
 

@@ -12,12 +12,9 @@
 header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    width: 110%;
     align-items: center;
     background-color: var(--main-bg-color);
 }
-
-#tokyobg{width: 110% !important;}
 
 #coc-logo {
     grid-column: 1 / 4;
@@ -118,7 +115,6 @@ p{
 footer{
     text-align: center;
     padding: 10px;
-    width: 105%;
 }
 
 .animepfp{
