@@ -27,7 +27,7 @@
 
 #hero-button {
     align-items: center;
-    background-color: #fa6400;
+    background-color: var(--second-bg-color);
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
     color: #fff;
@@ -101,7 +101,7 @@
 
 .button-5 {
     align-items: center;
-    background-color: #fa6400;
+    background-color: var(--second-bg-color);
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
     color: #fff;
@@ -150,7 +150,7 @@
 }
 
 h5{
-    color: var(--second-bg-color);
+    color: var(--third-bg-color);
     font-size: larger;
     text-shadow: 0px 1px 1px rgb(0, 0, 0);
     margin: 10px;
