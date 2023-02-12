@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/chamberGrid.css">
     <script src="scripts/chamber.js" defer></script>
     <script src="scripts/homepage.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
@@ -24,7 +25,7 @@
         
             <div id="coc-logo">
               <a href="index.html">
-                <img src="images/ngecoc_just_logo.png" alt="Chamber of Commerce logo">
+                <img src="images/ngecoc_just_logo.webp" alt="Chamber of Commerce logo">
               </a>
             </div>
 
@@ -47,8 +48,12 @@
             <div id="today-datetime">
                 <p id="today-text">time machine broke</p>
             </div>
-            
-            <img id="tokyobg" src="images/tokyo3city.png" alt="View of Tokyo-3">
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/small_tokyo3.webp" class="tokyobg" />
+                <source media="(max-width: 1000px)" srcset="images/medium_tokyo3.webp" class="tokyobg" />
+                <img src="images/large_tokyo3.webp" alt="A View of Tokyo-3" class="tokyobg" />
+              </picture>
+
 
             <div class="grid-container-main">
                 <nav id="side-menu" class="hide">
@@ -89,6 +94,12 @@
                 <br>
                 <div id="A" class="grid-item">
                     <h1>Welcome to Tokyo-3</h1>
+                    <!-- <img id="hero-img" src="images/large_wdd230.webp" alt=""> -->
+                    <picture>
+                        <source media="(max-width: 640px)" srcset="images/small_wdd230.webp" class="hero-img" />
+                        <source media="(max-width: 1000px)" srcset="images/medium_wdd230.webp" class="hero-img" />
+                        <img src="images/large_wdd230.webp" alt="A picture of Tokyo-3" class="hero-img" />
+                      </picture>
                     <button id="hero-button">Join the Chamber!</button>
 
                 </div>
@@ -103,14 +114,15 @@
                 <div id="C" class="grid-item bshad">
                     <h5>Weather</h5>
                     <div id="C-weather">
-                        <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-1024.png" alt="weather icon">
+                        <img src="images/weathercloud.webp" alt="weather icon">
                         <div>
-                            <h1><span id="weather">490&#8451;</span></h1>
+                            <h1><span id="temp">loading</span>&#8457;</h1>
+                            <p>Wind Speed: <span id="wind">loading</span>mph<br>
+                            Windchill: <span id="windchill">loading</span>&#8457;</p>
+                            <hr>
                             <p>Everything is on fire</p>
                         </div>
                     </div>
-                    <hr>
-                    <p>Wind Speed: 4000 miles/hr<br>Precipitation: Tang</p>
 
                 </div>
                 <div id="D" class="grid-item bshad">
@@ -181,7 +193,7 @@
 
                 </div>
                 
-                <img src="images/ngecoc_logo.png" alt="Tokyo-3 Chamber of Commerce" id="footerlogo">
+                <img src="images/ngecoc_logo.webp" alt="Tokyo-3 Chamber of Commerce" id="footerlogo">
                 
 
             </footer>
