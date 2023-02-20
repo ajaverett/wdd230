@@ -215,6 +215,7 @@ li.active {
 
 
 .bluesection{text-align: center;}
+
 .blueleft{text-align: left;}
 
 footer{
@@ -254,9 +255,25 @@ footer{
 
 #joke{text-decoration: line-through;}
 
-  
+.discoverpage{
+    width: 200px;
+    height: 125px;
+    align-items: center;
+}
+
+.centerimgdiv{
+    float: right;
+    margin: 30px;
+    transition: transform .2s;
+}
+
+
 
 @media only screen and (min-width: 640px) {
+
+    .centerimgdiv:hover{
+        transform: scale(1.05);
+    }
 
     #coc-logo {
         grid-column: 1 / 2;
