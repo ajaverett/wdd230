@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fictional Tokyo-3 Chamber of Commerce Website">
+    <title>Tokyo-3 Chamber of Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/formstyle.css">
+    <script src="scripts/chamber.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <div id="content">
+        <header>
+            <div id="coc-logo">
+              <a href="index.html">
+                <img src="images/ngecoc_just_logo.png" alt="Chamber of Commerce logo">
+              </a>
+            </div>
+
+            <div id="header-title">
+              <h1>Tokyo-3 Chamber of Commerce</h1>
+            </div>
+
+            <button id="hamburger">
+                <ion-icon name="menu-outline" 
+                          class="menuIcon material-icons bshad"
+                          size="large" ></ion-icon>
+                <ion-icon name="close-outline" 
+                          class="closeIcon material-icons hide"
+                          size="large"></ion-icon>           
+            </button>         
+        </header>
+
+
+        <div class="cheese">
+            
+            <img src="images/tokyo3city.png" alt="View of Tokyo-3">
+
+            <div class="grid-container-main">
+                <div id="side-menu" class="hide">
+                    <div class="innerbox">
+                        <h4>Menu</h4>
+
+                        <ul class="sidebar">
+                            <li class="menuItem">
+                                <a class="link_class" href="index.html">Home Page</a>
+                            </li>
+                            <li class="active menuItem">
+                                <a class="link_class" href="#">Join Today</a>
+                            </li>
+                            <li class="menuItem">
+                                <a class="link_class" href="design.html">Design</a>
+                            </li>
+                            <li class="menuItem">
+                                <a class="link_class" href="discover.html">Discover</a>
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+                <div id="welcome">
+                    <h2>Join Today</h2>
+                    <p>The Tokyo-3 Chamber of Commerce website is designed for a diverse group of individuals and businesses.</p>
+
+                    <hr>
+                    <div class="centerform">
+                        <form method="get" action="thankyou.html" target="_blank">
+
+                            <label for="first-name">First name*</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                            <br>
+                            <br>   
+                            
+                            <label for="last-name">Last name*</label>
+                            <input type="text" name="last-name" id="last-name" required>
+                            <br>
+                            <br>
+                            
+                            <label for="position-title">Business Title</label>
+                            <input type="text" name="position-title" id="position-title" pattern="[A-Za-z -]{7,}">
+                            <br>
+                            <br>
+                            
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" required placeholder="example@example.com">
+                            <br>
+                            <br>
+                            
+                            <label for="phone">Cell phone number*</label>
+                            <input type="tel" name="phone" id="phone" required>
+                            <br>
+                            <br>
+
+                            
+                            <label for="business-name">Business name/title*</label>
+                            <input type="text" name="business-name" id="business-name" required>
+                            <br>
+                            <br>
+                            
+                            <label for="membership-level">Membership level*</label>
+                            <select name="membership-level" id="membership-level" required>
+                                <option value="NP Membership">NP Membership</option>
+                                <option value="Bronze Membership">Bronze Membership</option>
+                                <option value="Silver Membership">Silver Membership</option>
+                                <option value="Gold Membership">Gold Membership</option>
+                            </select>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <label for="business-description">Business description</label>
+                            <textarea name="business-description" id="business-description"></textarea>
+                            <br>
+                            <br>
+                            
+                            <input type="hidden" name="form-load-time" value="2023-02-27 12:00 PM">
+                            
+                            <input type="submit" value="Join Today">
+                        </form>
+                    
+                    </div>
+                     
+                </div>
+            </div>
+        </div>
+        <br><hr><br>
+
+        <main>
+            <div class="blueleft">
+                
+            </div>
+        </main>
+        
+        <!-- https://dev.to/coderamrin/responsive-navbar-using-html-css-and-javascript-1jo4 -->
+
+        <footer class="purple">
+                <div id="footerinfo">
+                    <p>&copy;<span id="current_year"></span> .:|:. Alan J Averett .:|:. Texas</p>
+                    <p class="yellow_text">Last Updated: <span id="last_updated"></span></p>
+                </div>
+                <img src="images/ngecoc_logo.png" alt="Tokyo-3 Chamber of Commerce" id="footerlogo">
+        </footer>
+    </div>
+</body>
+</html>
