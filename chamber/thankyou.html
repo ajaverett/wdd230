@@ -4,21 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
+    <meta name="description" content="Fictional Tokyo-3 Chamber of Commerce Website">
+    <title>Thank You!</title>
+    <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/formstyle.css">
+    <link rel="stylesheet" href="styles/chamberGrid.css">
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/homepage.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </head>
+
 <body>
     <div id="content">
+        <header>
+            <div id="coc-logo">
+              <a href="index.html">
+                <img src="images/ngecoc_just_logo.webp" alt="Chamber of Commerce logo">
+              </a>
+            </div>
 
-		<h2>Thank you for joining our membership program</h1>
-		<p>We appreciate your interest. Click <a href="index.html">here</a> to return to the home page</p>
-        <p>You can close this tab now</p>
+            <div id="header-title">
+              <h1>Tokyo-3 Chamber of Commerce</h1>
+            </div>
+
+            <div id="hamburger">
+                <ion-icon name="menu-outline" 
+                          class="menuIcon material-icons bshad"
+                          size="large"></ion-icon>
+                <ion-icon name="close-outline" 
+                          class="closeIcon material-icons hide"
+                          size="large"></ion-icon>           
+            </div>         
+        </header>
+
+            <br>
+
+        <main>         
+            <div class="cheese">
+
+                <div class="grid-container-main">
+                        <body>
+                            <div id="content">
+                        
+                                <h2>Thank you!</h1>
+                                <h3>You have now joined our membership program</h3>
+                                <hr>
+                                <p>We appreciate your interest. Click <a href="index.html">here</a> to return to the home page</p>
+                                <p>You can close this tab now</p>
+                                <br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </body>
+                        
+    
+                </div>
+            </div>  
+        </main>
+            
+        <footer class="purple">
+                
+            <div id="footerinfo">
+    
+                <div class="socialmedia">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="https://goo.gl/maps/VGEWR5YpoMiWfRNS7" target="_blank">
+                        <ion-icon name="navigate-circle-outline"></ion-icon> <span>Google Maps</span>
+                    </a> 
+                </div>
+
+                <p>&copy;<span id="current_year"></span> .:|:. Alan J Averett .:|:. Texas</p>
+                <p class="yellow_text">Last Updated: <span id="last_updated"></span></p>
+
+            </div>
+                
+            <img src="images/ngecoc_logo.webp" alt="Tokyo-3 Chamber of Commerce" id="footerlogo">
+                
+        </footer>
+
     </div>
 </body>
+
 </html>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/formstyle.css">
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/formscript.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
@@ -66,10 +67,25 @@
                 </div>
                 <div id="welcome">
                     <h2>Join Today</h2>
-                    <p>The Tokyo-3 Chamber of Commerce website is designed for a diverse group of individuals and businesses.</p>
-
                     <hr>
-                    <div class="centerform">
+                    <h3>NP Membership</h3>
+                    <p>For non profit organizations and there is no fee</p>
+                    <h3>Bronze Membership</h3>
+                    <p>15% discount on events, 10% discount on advertising, Fee of $50/month</p>
+                    <h3>Silver Membership</h3>
+                    <p>25% discount on events, 15% discount on advertising, Free participation in the trade fair, Fee of $100/month</p>
+                    <h3>Gold Membership</h3>
+                    <p>50% discount on events, 50% discount on advertising, Free participation in the trade fair, 5 free featured ads per year, 1 free featured ad per year, Fee of $200/month</p>
+                    
+                     
+                </div>
+            </div>
+        </div>
+        <br><hr><br>
+
+        <main>
+
+            <div class="centerform">
                         <form method="get" action="thankyou.html" target="_blank">
 
                             <label for="first-name">First name*</label>
@@ -119,22 +135,14 @@
                             <br>
                             <br>
                             
-                            <input type="hidden" name="form-load-time" value="2023-02-27 12:00 PM">
+                            <input type="hidden" name="current_datetime" id="datetime_now">
                             
                             <input type="submit" value="Join Today">
+
                         </form>
                     
                     </div>
-                     
-                </div>
-            </div>
-        </div>
-        <br><hr><br>
 
-        <main>
-            <div class="blueleft">
-                
-            </div>
         </main>
         
         <!-- https://dev.to/coderamrin/responsive-navbar-using-html-css-and-javascript-1jo4 -->
