@@ -64,84 +64,85 @@
                             </li>
                         </ul>    
                     </div>
-                </div>
-                <div id="welcome">
-                    <h2>Join Today</h2>
-                    <hr>
-                    <h3>NP Membership</h3>
-                    <p>For non profit organizations and there is no fee</p>
-                    <h3>Bronze Membership</h3>
-                    <p>15% discount on events, 10% discount on advertising, Fee of $50/month</p>
-                    <h3>Silver Membership</h3>
-                    <p>25% discount on events, 15% discount on advertising, Free participation in the trade fair, Fee of $100/month</p>
-                    <h3>Gold Membership</h3>
-                    <p>50% discount on events, 50% discount on advertising, Free participation in the trade fair, 5 free featured ads per year, 1 free featured ad per year, Fee of $200/month</p>
-                    
-                     
-                </div>
+                </div>            
+                    <p>The Tokyo-3 Chamber of Commerce from Evangelion is a well-known and respected organization that represents the business community in Tokyo-3. Joining this chamber can provide numerous benefits for businesses, such as networking opportunities, access to resources, and potential revenue growth. If you are a business owner looking to establish credibility in your industry, gain exposure, and connect with other local business owners, joining the Tokyo-3 Chamber of Commerce may be a valuable investment. As a well-established and reputable organization, the Tokyo-3 Chamber of Commerce can provide the resources and support necessary to help businesses thrive.</p>
             </div>
         </div>
         <br><hr><br>
 
-        <main>
+    <main>
+    <div id="containerform">
+        <div id="tiers">
+            <h2>Join Today</h2>
+            <hr>
+            <h3>NP Membership</h3>
+            <p>For non profit organizations and there is no fee</p>
+            <h3>Bronze Membership</h3>
+            <p>15% discount on events, 10% discount on advertising, Fee of $50/month</p>
+            <h3>Silver Membership</h3>
+            <p>25% discount on events, 15% discount on advertising, Free participation in the trade fair, Fee of $100/month</p>
+            <h3>Gold Membership</h3>
+            <p>50% discount on events, 50% discount on advertising, Free participation in the trade fair, 5 free featured ads per year, 1 free featured ad per year, Fee of $200/month</p>       
+        </div>
+        <div id="centerform">
+            <form method="get" action="thankyou.html" target="_blank">
 
-            <div class="centerform">
-                        <form method="get" action="thankyou.html" target="_blank">
+                <label for="first-name">First name*</label>
+                <input type="text" name="first-name" id="first-name" required>
+                <br>
+                <br>   
+                
+                <label for="last-name">Last name*</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <br>
+                <br>
+                
+                <label for="position-title">Business Title</label>
+                <input type="text" name="position-title" id="position-title" pattern="[A-Za-z -]{7,}">
+                <br>
+                <br>
+                
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required placeholder="example@example.com">
+                <br>
+                <br>
+                
+                <label for="phone">Cell phone number*</label>
+                <input type="tel" name="phone" id="phone" required>
+                <br>
+                <br>
 
-                            <label for="first-name">First name*</label>
-                            <input type="text" name="first-name" id="first-name" required>
-                            <br>
-                            <br>   
-                            
-                            <label for="last-name">Last name*</label>
-                            <input type="text" name="last-name" id="last-name" required>
-                            <br>
-                            <br>
-                            
-                            <label for="position-title">Business Title</label>
-                            <input type="text" name="position-title" id="position-title" pattern="[A-Za-z -]{7,}">
-                            <br>
-                            <br>
-                            
-                            <label for="email">Email*</label>
-                            <input type="email" name="email" id="email" required placeholder="example@example.com">
-                            <br>
-                            <br>
-                            
-                            <label for="phone">Cell phone number*</label>
-                            <input type="tel" name="phone" id="phone" required>
-                            <br>
-                            <br>
+                
+                <label for="business-name">Business name/title*</label>
+                <input type="text" name="business-name" id="business-name" required>
+                <br>
+                <br>
+                
+                <label for="membership-level">Membership level*</label>
+                <select name="membership-level" id="membership-level" required>
+                    <option value="" disabled selected>Select membership level</option>
+                    <option value="NP Membership">NP Membership</option>
+                    <option value="Bronze Membership">Bronze Membership</option>
+                    <option value="Silver Membership">Silver Membership</option>
+                    <option value="Gold Membership">Gold Membership</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                
+                <label for="business-description">Business description</label>
+                <textarea name="business-description" id="business-description"></textarea>
+                <br>
+                <br>
+                
+                <input type="hidden" name="current_datetime" id="datetime_now">
+                
+                <input type="submit" value="Join Today">
 
-                            
-                            <label for="business-name">Business name/title*</label>
-                            <input type="text" name="business-name" id="business-name" required>
-                            <br>
-                            <br>
-                            
-                            <label for="membership-level">Membership level*</label>
-                            <select name="membership-level" id="membership-level" required>
-                                <option value="NP Membership">NP Membership</option>
-                                <option value="Bronze Membership">Bronze Membership</option>
-                                <option value="Silver Membership">Silver Membership</option>
-                                <option value="Gold Membership">Gold Membership</option>
-                            </select>
-                            <br>
-                            <br>
-                            <br>
-                            
-                            <label for="business-description">Business description</label>
-                            <textarea name="business-description" id="business-description"></textarea>
-                            <br>
-                            <br>
-                            
-                            <input type="hidden" name="current_datetime" id="datetime_now">
-                            
-                            <input type="submit" value="Join Today">
-
-                        </form>
-                    
-                    </div>
+            </form>
+        
+        </div>
+    </div>
 
         </main>
         
