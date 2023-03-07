@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon API Example</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <div id="content">
+  <div id="brdiv"></div>
+  <h1>Pokemon API Example</h1>
+  <table id="pokemonTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+  <script>
+const myDiv = document.getElementById("brdiv");
+const lotsofbrs = "<br>".repeat(170);
+brdiv.innerHTML = lotsofbrs;
+
+
+
+// Fetch data from Pokemon API
+fetch("https://pokeapi.co/api/v2/pokemon?limit=100")
+  .then(response => response.json())
+  .then(data => {
+    var pokemonList = data.results;
+
+    // Loop through each Pokemon in the list
+    for (var i = 0; i < pokemonList.length; i++) {
+      var pokemon = pokemonList[i];
+      var url = pokemon.url;
+
+      // Fetch additional data for each Pokemon
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          var name = data.name;
+          var type = data.types[0].type.name;
+
+          // Add Pokemon details to table
+          var row = "<tr><td>" + name + "</td><td>" + type + "</td></tr>";
+          document.querySelector("#pokemonTable tbody").insertAdjacentHTML('beforeend', row);
+        })
+        .catch(error => console.error(error));
+    }
+  })
+  .catch(error => console.error(error));
+  </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 1rem 100px;
+}
+  
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+  
+section {
+  background-color: #000000;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  width: 300px;
+}
+
+h2 {
+  background-color: #381233;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
