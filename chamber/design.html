@@ -8,7 +8,9 @@
     <title>Tokyo-3 Chamber of Commerce</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/directory.css">
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
@@ -55,7 +57,7 @@
                                 <a class="link_class" href="join.html">Join Today</a>
                             </li>
                             <li class="active menuItem">
-                                <a class="link_class" href="#">Design</a>
+                                <a class="link_class" href="#">Businesses</a>
                             </li>
                             <li class="menuItem">
                                 <a class="link_class" href="discover.html">Discover</a>
@@ -65,16 +67,12 @@
                 </div>
                 <div id="welcome">
 
-                    <h2>Design</h2>
+                    <h2>Business Directory</h2>
                     <hr>
-                    <p>I will be using a Skip Shade Gradient color palette that reflects the vibrant and dynamic world of Neon Genesis Evangelion. Our main color is a dark purple (#3F1043) which represents the dark energy and technology of the anime. This color will be used as the main background color for our website and as the primary color for our logo and buttons.
-                    <br>
-                    <br>
-        
-                    In addition to the neon blue, we have also chosen a dark grey (#333333) as our secondary color. This color will be used for the text and headings on our website to create a contrast and make the text easy to read.
-                    <br>
-                    <br>
-                    To complement our color schema, we have also chosen a specific typography that reflects the futuristic and high-tech world of Neon Genesis Evangelion. Our main font choice is "Times New Roman MT Std", which is a modern and clean font that is perfect for creating a futuristic look and feel. This font will be used for all text and headings on our website.</p>
+
+                    <p>
+                        Welcome to the business directory for Tokyo-3, the bustling city that serves as the main setting for the acclaimed anime series, Neon Genesis Evangelion. Located in the heart of Japan, Tokyo-3 is a vibrant metropolis that is home to a wide variety of businesses and industries. From the towering skyscrapers of the business district to the quaint shops and cafes of the residential areas, Tokyo-3 offers something for everyone. This directory is designed to help you navigate the city's many businesses and find the products and services you need. Whether you're a resident or a visitor, we hope this directory will prove useful in your exploration of Tokyo-3.
+                    </p>
         
         
 
@@ -84,6 +82,17 @@
         <br>
 
         <main>
+
+            <div id="directory">
+                <div id="directory-toggle">
+                  <button id="directory-grid" class="active">Grid View</button>
+                  <button id="directory-list">List View</button>
+                </div>
+                <div id="directory-data" class="directory-cards">
+                  
+                </div>
+              </div>
+              <br><br><br>
                     
         </main>
         

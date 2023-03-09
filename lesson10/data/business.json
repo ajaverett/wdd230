@@ -1,0 +1,148 @@
+{
+  "businesses": [
+      {
+          "name": "Nerv Corporation",
+          "streetAddress": "3rd Street",
+          "cityStateZip": "Tokyo-3, Japan",
+          "phoneNumber": "+81-XX-XXXX-XXXX",
+          "websiteURL": "http://www.nervcorp.com",
+          "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+          "membershipLevel": "platinum"
+      },
+      {
+          "name": "Tokyo-3 City Hall",
+          "streetAddress": "City Center",
+          "cityStateZip": "Tokyo-3, Japan",
+          "phoneNumber": "+81-XX-XXXX-XXXX",
+          "websiteURL": "http://www.tokyo3cityhall.com",
+          "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+          "membershipLevel": "gold"
+      },
+      {
+        "name": "Tokyo-3 Central Station",
+        "streetAddress": "Central Square",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3station.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "gold"
+        },
+        {
+        "name": "Mama's Ramen Shop",
+        "streetAddress": "246 Tokyo Blvd",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.mamasramen.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+        },
+        {
+        "name": "Tokyo-3 University",
+        "streetAddress": "Academic Road",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3univ.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "gold"
+        },
+        {
+        "name": "Tokyo-3 Aquarium",
+        "streetAddress": "Marine Drive",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3aquarium.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+        },
+        {
+        "name": "Tokyo-3 Observatory",
+        "streetAddress": "Star Avenue",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3observatory.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+        },
+        {
+        "name": "Angel's Bakery",
+        "streetAddress": "15th Avenue",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.angelsbakery.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+        },
+      {
+        "name": "Tokyo-3 Shopping Mall",
+        "streetAddress": "Shopping Street",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3mall.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+    },
+    {
+        "name": "Tokyo-3 Public Library",
+        "streetAddress": "Library Road",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3library.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+    },
+    {
+        "name": "Tokyo-3 Community Center",
+        "streetAddress": "Community Square",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3communitycenter.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+    },
+    {
+        "name": "Tokyo-3 Theme Park",
+        "streetAddress": "Amusement Park Road",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3themepark.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+    },
+    {
+        "name": "Tokyo-3 Sports Complex",
+        "streetAddress": "Sports Avenue",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3sportscomplex.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+    },
+    {
+        "name": "Tokyo-3 Cinemas",
+        "streetAddress": "Cinema Lane",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3cinemas.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "silver"
+    },
+    {
+        "name": "Tokyo-3 Technology Park",
+        "streetAddress": "Tech Drive",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3techpark.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "gold"
+    },
+    {
+        "name": "Tokyo-3 Convention Center",
+        "streetAddress": "Convention Street",
+        "cityStateZip": "Tokyo-3, Japan",
+        "phoneNumber": "+81-XX-XXXX-XXXX",
+        "websiteURL": "http://www.tokyo3conventioncenter.com",
+        "imageURL": "https://ih1.redbubble.net/image.753855976.5023/raf,128x128,075,f,101010:01c5ca27c6.u2.jpg",
+        "membershipLevel": "gold"
+    }
+  ]
+}
